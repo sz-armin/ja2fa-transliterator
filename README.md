@@ -1,4 +1,4 @@
-# ja2fa-Transliterator
+# Ja2Fa Transliterator
 A Japanese to Persian transliteration tool.
 
 ## Dependencies:
