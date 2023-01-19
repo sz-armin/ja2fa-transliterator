@@ -21,8 +21,8 @@ The process to go from Kana to the translations includes three steps. Preprocess
 - Yō-on is mapped individually in cases of noticeable difference in pronunciation. This step will be a preprocess.
 - Gemination is represented by adding “ّ-” to the next grapheme in postprocessing. Although this is not relevant if our segmentation units are morphemes.
 - Long vowels are handled by collapsing two similar vowels in postprocessing and adding a dash after applying the special rules defined on vowel mapping below:
-  - あ:Is mapped to “آ” at the beginning of a word, and to “ا” in other cases.
-  - い:Is mapped to “ای” at the beginning of a word, to “ِ-” after another “ِ-”, and to “ی” in other cases.
-  - う:Is mapped to “او” at the beginning of a word, to “ُ-” after another “ُ-”, and to “و” in other cases.
-  - え:Is mapped to “ِا” at the beginning of a word, and to “ِ-” in other cases.
-  - お:Is mapped to “ُا” at the beginning of a word, and to “ُ-” in other cases.
+  - あ: Is mapped to “آ” at the beginning of a word, and to “ا” in other cases.
+  - い: Is mapped to “ای” at the beginning of a word, to “ِ-” after another “ِ-”, and to “ی” in other cases.
+  - う: Is mapped to “او” at the beginning of a word, to “ُ-” after another “ُ-”, and to “و” in other cases.
+  - え: Is mapped to “ِا” at the beginning of a word, and to “ِ-” in other cases.
+  - お: Is mapped to “ُا” at the beginning of a word, and to “ُ-” in other cases.
